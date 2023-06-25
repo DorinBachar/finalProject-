@@ -1,2 +1,2 @@
-# We achieve this by training BERT on labeled datasets that are specific to the task.-
+# Capstone Project Phase A 23-2-R9-
 Transfer Learning for Sentiment Analysis Using BERT Based Supervised Fine-Tuning.
