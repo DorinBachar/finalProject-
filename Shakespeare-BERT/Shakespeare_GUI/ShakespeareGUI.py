@@ -218,8 +218,6 @@ shakespeare_preprocessed_texts = [clean_text(text) for text in shakespeare_texts
 
 
 def on_button_clicked(*args):
-    time.sleep(4)
-
     results_window = tk.Toplevel(root)
     results_window.title("Model Results")
 
@@ -347,8 +345,6 @@ def analyzer_overall_results():
 
 
 def display_overall_results():
-    time.sleep(15)
-
     img = mpimg.imread(path_model_graph)
     plt.imshow(img)
     plt.axis('off')  # Turn off axis labels
